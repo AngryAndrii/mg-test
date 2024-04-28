@@ -2,12 +2,12 @@
   color: white;
 }
 
-.title {
-  width: 80%;
-  margin: 0 auto;
-}
+/* .title {
+
+} */
+
 .descr {
-  color: rgb(204, 204, 203);
+  color: var(--secondary-color);
 }
 
 .swiper {
@@ -27,6 +27,8 @@
 .slide {
   width: 100%;
   height: 100%;
+  padding-left: 50px;
+  padding-right: 25px;
 }
 
 .slide-one {
@@ -35,50 +37,44 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 30%;
+  padding-top: 198px;
+}
+
+.icon-button {
+  position: absolute;
+  background-color: var(--icon-button-color);
+  border: none;
 }
 
 .burger-button {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
   width: 16px;
-  height: 12px;
+  height: 16px;
   top: 15px;
   left: 15px;
 }
 
-.burger-button svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-}
-
 .arrow-button {
-  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 25px;
   width: 14px;
-  height: 8px;
-}
-
-.arrow-button svg {
-  display: inline-block;
-  width: 100%;
-  height: 7px;
+  height: 14px;
 }
 
 .slide-two {
-  background: var(--card-shadow), url('../images/merlin.webp');
+  background-color: black;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.474) 0%, rgb(0, 0, 0) 100%),
+    url(../images/iPhone.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 20%;
-  padding: 30% 10%;
+  background-position-x: center;
+  background-position-y: bottom;
+  padding-top: 80px;
 }
 
 .slide-three {
-  background: var(--card-shadow), url('../images/japanfilm.jpg');
+  background-color: black;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.474) 0%, rgb(0, 0, 0) 100%),
+    url(../images/slide-three.png);
   background-repeat: no-repeat;
   background-size: cover;
   border: 8px solid var(--accent-color);
