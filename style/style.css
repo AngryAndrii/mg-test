@@ -27,7 +27,8 @@
 .slide {
   width: 100%;
   height: 100%;
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 25px;
 }
 
 .slide-one {
@@ -36,7 +37,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 30%;
+  padding-top: 198px;
 }
 
 .icon-button {
@@ -61,11 +62,13 @@
 }
 
 .slide-two {
-  background: var(--card-shadow), url('../images/merlin.webp');
+  background-color: black;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.474) 0%, rgb(0, 0, 0) 100%),
+    url(../images/iPhone.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 20%;
-  padding: 30% 10%;
+  background-position-x: center;
+  background-position-y: bottom;
+  padding-top: 80px;
 }
 
 .slide-three {
