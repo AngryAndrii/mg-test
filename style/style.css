@@ -2,12 +2,12 @@
   color: white;
 }
 
-.title {
-  width: 80%;
-  margin: 0 auto;
-}
+/* .title {
+
+} */
+
 .descr {
-  color: rgb(204, 204, 203);
+  color: var(--secondary-color);
 }
 
 .swiper {
@@ -27,6 +27,7 @@
 .slide {
   width: 100%;
   height: 100%;
+  padding: 50px;
 }
 
 .slide-one {
@@ -38,35 +39,25 @@
   padding-top: 30%;
 }
 
-.burger-button {
+.icon-button {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: var(--icon-button-color);
   border: none;
+}
+
+.burger-button {
   width: 16px;
-  height: 12px;
+  height: 16px;
   top: 15px;
   left: 15px;
 }
 
-.burger-button svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-}
-
 .arrow-button {
-  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 25px;
   width: 14px;
-  height: 8px;
-}
-
-.arrow-button svg {
-  display: inline-block;
-  width: 100%;
-  height: 7px;
+  height: 14px;
 }
 
 .slide-two {
