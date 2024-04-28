@@ -2,9 +2,18 @@
   color: white;
 }
 
-/* .title {
-
-} */
+.buy-button {
+  width: 200px;
+  height: 55px;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--primary-color);
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
 
 .descr {
   color: var(--secondary-color);
@@ -62,21 +71,49 @@
 }
 
 .slide-two {
+  padding-top: 80px;
   background-color: black;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.474) 0%, rgb(0, 0, 0) 100%),
-    url(../images/iPhone.png);
+  background-image: var(--bottom-shadow), url(../images/iPhone.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
-  padding-top: 80px;
 }
 
 .slide-three {
+  padding-top: 36px;
+  padding-right: 30px;
   background-color: black;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.474) 0%, rgb(0, 0, 0) 100%),
-    url(../images/slide-three.png);
+  background-image: var(--bottom-shadow), url(../images/slide-three.png);
   background-repeat: no-repeat;
   background-size: cover;
   border: 8px solid var(--accent-color);
   background-position: 50%;
+}
+
+.prepay {
+  margin-bottom: 109px;
+}
+
+.films {
+  margin-bottom: 40px;
+}
+
+.films .descr {
+  color: var(--primary-color);
+}
+
+.try-section .main-title {
+  margin-bottom: 16px;
+}
+
+.try-button {
+  margin-bottom: 10px;
+}
+
+.price-descr {
+  width: 160px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  letter-spacing: 0.83px;
+  color: var(--secondary-color);
 }
