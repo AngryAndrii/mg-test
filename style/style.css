@@ -1,0 +1,86 @@
+.body {
+  color: white;
+}
+
+.title {
+  width: 80%;
+  margin: 0 auto;
+}
+.descr {
+  color: rgb(204, 204, 203);
+}
+
+.swiper {
+  width: 100vw;
+  height: 100vh;
+}
+.wiper-slide {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-one {
+  position: relative;
+  background: var(--card-shadow), url('../images/slide-one-img.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 30%;
+}
+
+.burger-button {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 16px;
+  height: 12px;
+  top: 15px;
+  left: 15px;
+}
+
+.burger-button svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.arrow-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 25px;
+  width: 14px;
+  height: 8px;
+}
+
+.arrow-button svg {
+  display: inline-block;
+  width: 100%;
+  height: 7px;
+}
+
+.slide-two {
+  background: var(--card-shadow), url('../images/merlin.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+  padding: 30% 10%;
+}
+
+.slide-three {
+  background: var(--card-shadow), url('../images/japanfilm.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 8px solid var(--accent-color);
+  background-position: 50%;
+}

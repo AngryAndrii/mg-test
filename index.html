@@ -5,6 +5,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -12,8 +13,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/root.css" />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body class="body">
     <div class="swiper">
@@ -21,6 +22,12 @@
         <div class="swiper-slide">
           <div class="wrapper">
             <div class="slide slide-one">
+              <button class="burger-button">
+                <svg class="burger">
+                  <use href="./images/sprite.svg#burger_icon"></use>
+                </svg>
+              </button>
+
               <div class="title">
                 <h2>Дивіться ТБ та кіно без реклами в єдиній передплаті</h2>
                 <p class="descr">
@@ -28,15 +35,36 @@
                   мультфільмів у єдиній передплаті
                 </p>
               </div>
+              <button class="arrow-button">
+                <svg class="arrow">
+                  <use href="./images/sprite.svg#arrow_icon"></use>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="wrapper"><div class="slide slide-two">Slide 2</div></div>
+          <div class="wrapper">
+            <div class="slide slide-two">
+              <div class="title">
+                <h2>дивіться фільми без інтернету</h2>
+                <p class="descr">завантаження філмів та серіалів на ваш пристрій</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="swiper-slide">
           <div class="wrapper">
-            <div class="slide slide-three">Slide 3</div>
+            <div class="slide slide-three">
+              <div class="title">
+                <p class="descr">Передплата</p>
+                <h3>Оптимальна</h3>
+              </div>
+              <div class="title">
+                <h2>1000 фільмів та 160+ каналів</h2>
+                <p class="descr">Голлівудська класика та свіжі кіноновинки</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
