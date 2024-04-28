@@ -72,7 +72,9 @@
 }
 
 .slide-three {
-  background: var(--card-shadow), url('../images/japanfilm.jpg');
+  background-color: black;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.474) 0%, rgb(0, 0, 0) 100%),
+    url(../images/slide-three.png);
   background-repeat: no-repeat;
   background-size: cover;
   border: 8px solid var(--accent-color);
