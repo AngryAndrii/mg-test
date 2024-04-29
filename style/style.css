@@ -38,6 +38,7 @@
   height: 100%;
   padding-left: 50px;
   padding-right: 25px;
+  background-color: #010101;
 }
 
 .slide-one {
@@ -72,7 +73,6 @@
 
 .slide-two {
   padding-top: 80px;
-  background-color: black;
   background-image: var(--bottom-shadow), url(../images/iPhone.png);
   background-repeat: no-repeat;
   background-position-x: center;
@@ -82,8 +82,7 @@
 .slide-three {
   padding-top: 36px;
   padding-right: 30px;
-  background-color: black;
-  background-image: var(--bottom-shadow), url(../images/slide-three.png);
+  background-image: var(--card-shadow), url(../images/slide-three.png);
   background-repeat: no-repeat;
   background-size: cover;
   border: 8px solid var(--accent-color);
@@ -92,6 +91,10 @@
 
 .prepay {
   margin-bottom: 109px;
+}
+
+.prepay .descr {
+  margin-bottom: 5px;
 }
 
 .films {
@@ -116,4 +119,49 @@
   font-size: 12px;
   letter-spacing: 0.83px;
   color: var(--secondary-color);
+}
+
+.slide-four {
+  padding-top: 92px;
+  padding-right: 16px;
+  background-image: var(--bottom-shadow), url(../images/advertising.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: 50%;
+  background-position-y: 80%;
+}
+
+.slide-five {
+  padding-top: 100px;
+  padding-right: 25px;
+}
+
+.slide-five h3 {
+  max-width: 300px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 52px;
+  max-width: 420px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+
+.item .item-header {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.item .descr {
+  color: var(--primary-color);
 }
