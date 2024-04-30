@@ -23,6 +23,7 @@
   width: 100vw;
   height: 100vh;
 }
+
 .wiper-slide {
   height: 100%;
   width: 100%;
@@ -72,7 +73,7 @@
 }
 
 .slide-two {
-  padding-top: 80px;
+  padding-top: 60px;
   background-image: var(--bottom-shadow), url(../images/iPhone.png);
   background-repeat: no-repeat;
   background-position-x: center;
